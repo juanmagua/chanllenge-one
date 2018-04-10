@@ -51,7 +51,7 @@ class App extends Component {
                     <div>
                         {repos.map(repo =>
                                         <div key={repo.id}>
-                                            <a href={repo.svn_url}>
+                                            <a target="_blank" href={repo.svn_url}>
                                                 {repo.name}
                                             </a>
                                         </div>
